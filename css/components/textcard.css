@@ -1,0 +1,16 @@
+.textcard {
+	flex-basis: 500px;
+	text-align: justify;
+	font-size: 18px;
+	flex-grow: 1;
+	padding: 10px;
+	font-weight: 50px;
+	color: #000000a6;
+}
+
+@media (max-width: 1000px) { 
+	.textcard { 
+	flex-basis: 300px;
+	font-size: 16px;
+	}
+	}

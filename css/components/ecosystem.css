@@ -1,0 +1,8 @@
+.ecosystem {
+	display: block;
+	margin-left: calc(40px + 40 * (100vw - 1024px) / 376);
+    border-left: 1px solid;
+    align-self: flex-start;
+    margin-bottom: 3rem;
+    list-style: none;
+}

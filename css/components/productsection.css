@@ -1,0 +1,14 @@
+.productsection {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.productsection h1 {
+	display: block;
+	margin: 10px;
+}
+

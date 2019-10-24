@@ -1,0 +1,49 @@
+.containerbanner {
+	width: 860px; 
+	margin: 0 auto;
+	display: flex;
+	padding: 50px;
+}
+
+
+@media (max-width: 1100px) { 
+	.containerbanner { 
+	width: 900px; 
+	}
+	}
+
+@media (max-width: 1000px) { 
+	.containerbanner { 
+	width: 800px; 
+	}
+	}
+
+@media (max-width: 900px) { 
+	.containerbanner { 
+	width: 700px; 
+	}
+	}
+
+@media (max-width: 750px) { 
+	.containerbanner { 
+	width: 550px; 
+	}
+	}
+
+@media (max-width: 600px) { 
+	.containerbanner { 
+	width: 450px; 
+	}
+	}
+
+@media (max-width: 500px) { 
+	.containerbanner { 
+	width: 400px; 
+	}
+	}
+
+@media (max-width: 450px) { 
+	.container { 
+	width: 350px; 
+	}
+	}

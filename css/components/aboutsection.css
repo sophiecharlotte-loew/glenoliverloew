@@ -1,0 +1,19 @@
+.aboutsection {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 50px;
+}
+
+.aboutsection img {
+	border-radius: 5px;
+	max-width: 400px;
+	margin: 10px;
+}
+
+.aboutsection h1 {
+	display: block;
+	margin: 20px;
+}
+

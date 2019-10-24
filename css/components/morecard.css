@@ -1,0 +1,37 @@
+.morecard {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	margin: 15px;
+	flex-basis: 400px;
+	flex-grow: 1;
+}
+
+.morecard img {
+	width: 150px;
+	height: auto;
+	vertical-align: middle;
+	width:  100px;
+	height: 100px;
+	object-fit: scale-down;
+}
+
+.morecard a {
+	font-size: 20px;
+	font-weight: 100px;
+}
+
+.morecard a:hover { 
+	font-size: 21px;
+	font-weight: 400px;
+}
+
+.morecard:hover { 
+	  opacity: 0.9;
+      filter: alpha(opacity=10);
+      transform: scale(1.005);
+      transition: transform .5s ease;
+}
